@@ -1,0 +1,12 @@
+myset={1,2,3,4}
+myset.add(5)
+myset.remove(4)
+myset.discard(3)
+print(myset)
+myset2={4,6,7,8,2}
+a=myset.union(myset2)
+print(a)
+b=myset.intersection(myset2)
+c=myset.difference(myset2)
+print(b)
+print(c)
